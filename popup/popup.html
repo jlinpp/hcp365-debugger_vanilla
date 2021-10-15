@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css"/>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="flex flex-col p-4">
+    <main class="main flex-grow">
+      <h1 class="text-center font-bold text-xl">HCP365 Debugger</h1>
+      <section class="p-4">
+        <div id="data"></div>
+      </section>
+    </main>
+
+    <footer>
+        <button id="getCurrentURL" class="btn w-full drop-shadow bg-purple-500 capitalize outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 hover:bg-purple-800">get url</button>  
+    </footer>
+
+    <!-- Scripts -->
+    <script src="popup.js"></script>
+  </body>
+</html>

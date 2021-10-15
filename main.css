@@ -1,0 +1,14 @@
+body {
+    height:600px;
+    width: 400px;
+}
+
+.btn {
+    color: #fff;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.25rem;
+}

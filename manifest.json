@@ -9,7 +9,6 @@
   "permissions": [
     "tabs"
   ],
-  "devtools_page": "/devtools/devtools.html",
   "action": {
     "default_popup": "/popup/popup.html",
     "default_icon": {
